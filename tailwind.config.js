@@ -28,6 +28,22 @@ module.exports = {
           { fontVariationSettings: '"wdth" 125' },
         ],
       },
+      colors: {
+        'primary': {
+          DEFAULT: '#ff2358',
+          '50': '#fff0f4',
+          '100': '#ffdde5',
+          '200': '#ffc0cf',
+          '300': '#ff94ae',
+          '400': '#ff577f',
+          '500': '#ff2358',
+          '600': '#f7003b',
+          '700': '#d70033',
+          '800': '#b1032d',
+          '900': '#920a2a',
+          '950': '#500013',
+        },
+      }
     },
   },
   plugins: [],
