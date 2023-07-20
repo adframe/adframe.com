@@ -4,8 +4,8 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - AdFrame',
-    default: 'AdFrame - Award winning developer studio based in Denmark',
+    template: '%s | AdFrame',
+    default: 'AdFrame | Full-service digital accelerator based in Belgium.',
   },
 }
 
