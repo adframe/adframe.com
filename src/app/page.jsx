@@ -180,9 +180,8 @@ export default async function Home() {
             Full-service digital accelerator based in Belgium.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are developer studio working at the intersection of design and
-            technology. It’s a really busy intersection though — a lot of our
-            staff have been involved in hit and runs.
+              We offer a wide range of services, from planning and designing digital strategies to creating websites and marketing campaigns.
+              Our goal is to make digital transformation easy for businesses of all sizes.
           </p>
         </FadeIn>
       </Container>
