@@ -7,10 +7,19 @@ import { socialMediaProfiles } from '@/components/SocialMedia'
 
 const navigation = [
   {
-    title: 'Products',
+    title: 'Work',
     links: [
-      { title: 'RevSplit', href: 'https://www.revsplit.net' },
-      { title: 'Save.fm', href: 'https://www.save.fm' },
+      { title: 'FamilyFund', href: '/work/family-fund' },
+      { title: 'Unseal', href: '/work/unseal' },
+      { title: 'Phobia', href: '/work/phobia' },
+      {
+        title: (
+          <>
+            See all <span aria-hidden="true">&rarr;</span>
+          </>
+        ),
+        href: '/work',
+      },
     ],
   },
   {
