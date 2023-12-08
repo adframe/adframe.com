@@ -135,14 +135,14 @@ function ContactDetails() {
 
 export const metadata = {
   title: 'Contact Us',
-  description: 'Let’s work together. Contact our team of experts to explore how we can help skyrocket your growth.',
+  description: 'Get in touch with us to explore ways we can succeed together.',
 }
 
 export default function Contact() {
   return (
     <>
       <PageIntro eyebrow="Contact us" title="Let’s work together">
-        <p>Contact our team of experts to explore how we can help skyrocket your growth.</p>
+        <p>Get in touch with us to explore ways we can succeed together.</p>
       </PageIntro>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
