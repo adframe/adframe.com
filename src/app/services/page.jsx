@@ -11,7 +11,7 @@ import { SectionIntro } from '@/components/SectionIntro'
 import { StatList, StatListItem } from '@/components/StatList'
 import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
 
-function Culture() {
+function Services() {
   return (
     <div className="mt-24 bg-neutral-950 py-24 sm:mt-32 lg:mt-40 lg:py-32">
       <SectionIntro
@@ -81,7 +81,7 @@ export default async function About() {
         </StatList>
       </Container>
 
-      <Culture />
+      <Services />
 
       <PageLinks
         title="From the blog"
