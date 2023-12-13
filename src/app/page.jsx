@@ -63,12 +63,12 @@ function Services() {
     <>
       <SectionIntro
         eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        title="What can we do for you?"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+            We provide you with both technical and strategic
+            help to ensure your business is up-and-running 24 hours a day.
         </p>
       </SectionIntro>
       <Container className="mt-16">
