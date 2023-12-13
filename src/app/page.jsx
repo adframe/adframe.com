@@ -83,11 +83,11 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Management agency">
-                As a management agency, we represent our influencers and manage everything
+            <ListItem title="Creator services">
+                As a creator service provider, we represent our influencers and manage everything
                 that is apart of being a creator.
             </ListItem>
-            <ListItem title="Rights management">
+            <ListItem title="Content protection">
                 We take care of your content, by blocking or monetizing
                 the illegal distribution of it on YouTube.
             </ListItem>
