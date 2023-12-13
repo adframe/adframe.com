@@ -9,18 +9,6 @@ import { PageIntro } from '@/components/PageIntro'
 import { PageLinks } from '@/components/PageLinks'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StatList, StatListItem } from '@/components/StatList'
-import imageAngelaFisher from '@/images/team/angela-fisher.jpeg'
-import imageBenjaminRussel from '@/images/team/benjamin-russel.jpeg'
-import imageBlakeReid from '@/images/team/blake-reid.jpeg'
-import imageChelseaHagon from '@/images/team/chelsea-hagon.jpeg'
-import imageDriesVincent from '@/images/team/dries-vincent.jpeg'
-import imageEmmaDorsey from '@/images/team/emma-dorsey.jpeg'
-import imageJeffreyWebb from '@/images/team/jeffrey-webb.jpeg'
-import imageKathrynMurphy from '@/images/team/kathryn-murphy.jpeg'
-import imageLeonardKrasner from '@/images/team/leonard-krasner.jpeg'
-import imageLeslieAlexander from '@/images/team/leslie-alexander.jpeg'
-import imageMichaelFoster from '@/images/team/michael-foster.jpeg'
-import imageWhitneyFrancis from '@/images/team/whitney-francis.jpeg'
 import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
 
 function Culture() {
@@ -42,7 +30,7 @@ function Culture() {
             illegal distribution of it on YouTube
           </GridListItem>
           <GridListItem title="Content Syndication" invert>
-            Syndicate content from your brand that is not present on social media yet,
+            Syndicate content from your brand that is not present on YouTube yet,
             to provide you with an additional revenue stream.
           </GridListItem>
           <GridListItem title="Content Production" invert>
