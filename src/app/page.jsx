@@ -84,7 +84,7 @@ function Services() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Creator services">
-                As a creator service provider, we represent our influencers and manage everything
+                As a creator service provider, we represent our content creators and manage everything
                 that is apart of being a creator.
             </ListItem>
             <ListItem title="Content protection">
