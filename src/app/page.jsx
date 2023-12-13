@@ -7,7 +7,6 @@ import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
-import { Testimonial } from '@/components/Testimonial'
 import logoBrightPath from '@/images/clients/bright-path/logo-light.svg'
 import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg'
 import logoGreenLife from '@/images/clients/green-life/logo-light.svg'
@@ -17,8 +16,7 @@ import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.sv
 import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
 import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
-import imageLaptop from '@/images/laptop.jpg'
-import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
+import imageFilming from '@/images/filming.jpg'
 
 const clients = [
   ['Phobia', logoPhobiaLight],
@@ -78,7 +76,7 @@ function Services() {
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
-                src={imageLaptop}
+                src={imageFilming}
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />
@@ -129,7 +127,7 @@ export default async function Home() {
       </Container>
 
       <Clients />
-        
+
       <Services />
 
       <ContactSection />
