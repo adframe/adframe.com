@@ -103,7 +103,7 @@ function Services() {
 
 export const metadata = {
   description:
-    'Full-service digital accelerator based in Belgium.',
+    'Full-service digital media company based in Belgium.',
 }
 
 export default async function Home() {
@@ -113,7 +113,7 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Full-service digital accelerator based in Belgium.
+            Full-service digital media company based in Belgium.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
               We offer a wide range of services, from planning and designing digital strategies to creating websites and marketing campaigns.

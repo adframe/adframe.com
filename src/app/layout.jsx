@@ -5,7 +5,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s | AdFrame',
-    default: 'AdFrame | Full-service digital accelerator based in Belgium.',
+    default: 'AdFrame | Full-service digital media company based in Belgium.',
   },
 }
 
