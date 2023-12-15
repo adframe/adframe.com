@@ -94,8 +94,8 @@ function ContactDetails() {
         </h2>
         <dl className="mt-6 grid grid-cols-1 gap-8 text-sm sm:grid-cols-2">
           {[
-            ['General', 'info@adframe.com'],
-            ['Press', 'press@adframe.com'],
+            ['General Inquiries', 'info@adframe.com'],
+            ['Copyright & Licensing', 'copyright@adframe.com'],
           ].map(([label, email]) => (
             <div key={email}>
               <dt className="font-semibold text-neutral-950">{label}</dt>
