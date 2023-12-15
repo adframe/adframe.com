@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 
-function Office({ name, children, invert = false }) {
+function Contact({ name, children, invert = false }) {
   return (
     <address
       className={clsx(
@@ -17,22 +17,22 @@ function Office({ name, children, invert = false }) {
   )
 }
 
-export function Offices({ invert = false, ...props }) {
+export function Contacts({ invert = false, ...props }) {
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="Copenhagen" invert={invert}>
+        <Contact name="General Inquiries" invert={invert}>
           1 Carlsberg Gate
           <br />
           1260, København, Denmark
-        </Office>
+        </Contact>
       </li>
       <li>
-        <Office name="Billund" invert={invert}>
+        <Contact name="Copyright & Licensing" invert={invert}>
           24 Lego Allé
           <br />
           7190, Billund, Denmark
-        </Office>
+        </Contact>
       </li>
     </ul>
   )
