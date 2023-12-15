@@ -5,7 +5,7 @@ import { Border } from '@/components/Border'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
-import { Contacts } from '@/components/Contacts'
+import { CompanyDetails } from '@/components/CompanyDetails'
 import { PageIntro } from '@/components/PageIntro'
 import { SocialMedia } from '@/components/SocialMedia'
 
@@ -86,7 +86,7 @@ function ContactDetails() {
         addresses here for legal reasons.
       </p>
 
-      <Contacts className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
+      <CompanyDetails className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
 
       <Border className="mt-16 pt-16">
         <h2 className="font-display text-base font-semibold text-neutral-950">

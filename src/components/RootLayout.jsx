@@ -18,7 +18,7 @@ import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { GridPattern } from '@/components/GridPattern'
 import { Logo, Logomark } from '@/components/Logo'
-import { Contacts } from '@/components/Contacts'
+import { CompanyDetails } from '@/components/CompanyDetails'
 import { SocialMedia } from '@/components/SocialMedia'
 
 const RootLayoutContext = createContext({})
@@ -214,7 +214,7 @@ function RootLayoutInner({ children }) {
                     <h2 className="font-display text-base font-semibold text-white">
                       Contact us
                     </h2>
-                    <Contacts
+                    <CompanyDetails
                       invert
                       className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2"
                     />
