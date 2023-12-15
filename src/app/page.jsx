@@ -84,21 +84,17 @@ function Services() {
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Creator services">
-                As a creator service provider, we represent our content creators and manage everything
-                that is apart of being a creator.
+                As a creator service provider, we represent our content creators and take care of all aspects of being a creator.
             </ListItem>
             <ListItem title="Content protection">
-                We take care of your content, by blocking or monetizing
-                the illegal distribution of it on YouTube.
+                We manage your content by blocking or monetizing the unauthorized distribution of it across all social media networks.
             </ListItem>
             <ListItem title="Content syndication">
-                Syndicate content from your brand that is not present on YouTube yet,
-                to provide you with an additional revenue stream.
+                Distribute content from your brand that isn't yet on social media networks, to offer you an additional income stream.
             </ListItem>
             <ListItem title="Content production">
-                Along with our production team, we can help you produce new content in different verticals.
-            </ListItem>
-          </List>
+                Together with our production team, we can assist you in producing new content in different verticals.            </ListItem>
+            </List>
         </div>
       </Container>
     </>
