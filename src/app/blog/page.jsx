@@ -13,7 +13,7 @@ import { loadMDXMetadata } from '@/lib/loadMDXMetadata'
 export const metadata = {
   title: 'Blog',
   description:
-    'Get the latest media industry news on our blog, brought to you by our expert marketing team.',
+    'Discover the latest media industry news on our blog, curated by our expert marketing team for insightful updates and trends.',
 }
 
 export default async function Blog() {
@@ -23,7 +23,7 @@ export default async function Blog() {
     <>
       <PageIntro eyebrow="Blog" title="The latest articles and news">
         <p>
-            Get the latest media industry news on our blog, brought to you by our expert marketing team.
+            Discover the latest media industry news on our blog, curated by our expert marketing team for insightful updates and trends.
         </p>
       </PageIntro>
 
