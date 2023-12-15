@@ -21,17 +21,17 @@ export function CompanyDetails({ invert = false, ...props }) {
   return (
     <ul role="list" {...props}>
       <li>
-        <CompanyDetail name="General Inquiries" invert={invert}>
-          1 Carlsberg Gate
+        <CompanyDetail name="Invoicing" invert={invert}>
+          AdFrame BV
           <br />
-          1260, København, Denmark
+          BE 0754 418 290
         </CompanyDetail>
       </li>
       <li>
-        <CompanyDetail name="Copyright & Licensing" invert={invert}>
-          24 Lego Allé
+        <CompanyDetail name="Contact" invert={invert}>
+          Luchthavenstraat 8
           <br />
-          7190, Billund, Denmark
+          8400, Oostende, Belgium
         </CompanyDetail>
       </li>
     </ul>
