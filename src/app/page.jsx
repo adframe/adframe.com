@@ -35,7 +35,7 @@ function Clients() {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We've teamed up with many great brands
+              Clients we have worked with
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
